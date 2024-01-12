@@ -9,3 +9,5 @@ gem 'sinatra'
 
 gem 'rubocop', '~> 1.32.0', require: false
 gem 'rubocop-rspec', '~> 2.12'
+
+gem "webrick", "~> 1.8"
