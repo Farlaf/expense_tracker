@@ -20,8 +20,6 @@ module ExpenseTracker
     end
 
     it 'records sublimited expenses' do
-      pending 'Need to persist expenses'
-
       coffee = post_expense(
         'payee' => 'Starbuks',
         'amount' => 5.75,
